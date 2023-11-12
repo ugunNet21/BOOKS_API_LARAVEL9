@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "ea2cdf57-1e2f-4125-af47-c500d6261983",
+		"name": "Books_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15907384"
+	},
+	"item": [
+		{
+			"name": "INDEX",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/buku",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"buku"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DETAIL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/buku/24",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"buku",
+						"24"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "STORE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "judul",
+							"value": "Ngarang",
+							"type": "text"
+						},
+						{
+							"key": "pengarang",
+							"value": "Gugun Gunawan, S.Kom",
+							"type": "text"
+						},
+						{
+							"key": "tanggal_publikasi",
+							"value": "2023/05/03",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/buku",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"buku"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "judul",
+							"value": "Dadakan",
+							"type": "text"
+						},
+						{
+							"key": "pengarang",
+							"value": "ugun",
+							"type": "text"
+						},
+						{
+							"key": "tanggal_publikasi",
+							"value": "1999/01/01",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/buku/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"buku",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "judul",
+							"value": "Dadakan",
+							"type": "text"
+						},
+						{
+							"key": "pengarang",
+							"value": "ugun",
+							"type": "text"
+						},
+						{
+							"key": "tanggal_publikasi",
+							"value": "1999/01/01",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/buku/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"buku",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
