@@ -65,71 +65,78 @@ Make sure you have the following software installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/laravel-books-api.git
+   git clone https://github.com/ugunNet21/BOOKS_API_LARAVEL9.git
 
 Navigate to the project folder:
 
-bash
-Copy code
+```bash
+
 cd laravel-books-api
 Install dependencies:
-
-bash
-Copy code
+```
+```bash
 composer install
 Copy the .env.example file to create a new .env file:
-
-bash
-Copy code
+```
+```bash
 cp .env.example .env
 Configure your database connection in the .env file.
-
+```
 Generate the application key:
 
-bash
-Copy code
+```bash
 php artisan key:generate
 Running the Application
 Run the migration to set up the database tables:
-
-bash
-Copy code
+```
+```bash
 php artisan migrate
 Start the development server:
-
-bash
-Copy code
+```
+```bash
 php artisan serve
 Visit http://localhost:8000 in your browser to access the API.
-
-Usage
-Endpoints
+```
+## Usage
+Endpoints :
+```bash
 GET /api/books: Get all books.
+```
+```bash
 GET /api/books/{id}: Get a single book by ID.
+```
+```bash
 POST /api/books: Create a new book.
+```
+```bash
 PUT /api/books/{id}: Update a book by ID.
+```
+```bash
 DELETE /api/books/{id}: Delete a book by ID.
-Examples
+```
+
+## Examples
 Get all books
-bash
-Copy code
+```bash
 curl http://localhost:8000/api/books
+```
+
 Get a single book
-bash
-Copy code
+```bash
 curl http://localhost:8000/api/books/1
+```
 Create a new book
-bash
-Copy code
+```bash
 curl -X POST -H "Content-Type: application/json" -d '{"judul":"Sample Book","pengarang":"John Doe","tanggal_publikasi":"2022-01-01"}' http://localhost:8000/api/books
+```
 Update a book
-bash
-Copy code
+```bash
 curl -X PUT -H "Content-Type: application/json" -d '{"judul":"Updated Book"}' http://localhost:8000/api/books/1
+```
 Delete a book
-bash
-Copy code
+```bash
 curl -X DELETE http://localhost:8000/api/books/1
+```
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
