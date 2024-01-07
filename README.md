@@ -32,6 +32,41 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Guide API
+# Laravel Books API
+
+Laravel Books API is a simple API for managing book data.
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Usage](#usage)
+  - [Endpoints](#endpoints)
+  - [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following software installed on your machine:
+
+- [PHP](https://www.php.net/) (>= 7.4)
+- [Composer](https://getcomposer.org/)
+- [Laravel](https://laravel.com/) (>= 8)
+- [MySQL](https://www.mysql.com/) or another supported database
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/laravel-books-api.git
+
 
 ## Laravel Sponsors
 
