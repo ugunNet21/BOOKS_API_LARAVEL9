@@ -12,6 +12,10 @@
 ## Frontend
 ![image](https://github.com/ugunNet21/BOOKS_API_LARAVEL9/assets/45864165/a9ebf7c5-c1d6-499c-a210-b16438066f72)
 
+## Dashboard admin
+
+![image](https://github.com/ugunNet21/BOOKS_API_LARAVEL9/assets/45864165/2f843924-a86c-4498-a4a6-da820285b354)
+
 
 ## Image POSTMAN
 
